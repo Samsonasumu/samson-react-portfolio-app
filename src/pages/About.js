@@ -50,10 +50,10 @@ function About() {
              loop={Infinity}
                steps={[
                         "Fullstack developer : Django and react 💻",
-                        1000,
+                        2000,
                         "Data Scientist 👨‍💻",
-                        1000,
-                        "Deploying Machine learning appliations 🚀",
+                        2000,
+                        "Deploying Machine learning applications 🚀",
                         1000,
                         "All things data related",
                         1000,
@@ -86,8 +86,8 @@ function About() {
        <div className='profile-picture'>
         <div className='profile-piture-background'>
         <img src={profilePicture} alt="Profile Picture" style={{
-          width: '400px',
-          height: '400px',
+          width: '300px',
+          height: '300px',
           borderRadius: '50%',
           objectFit: 'cover' // Optional: Ensure image fills available space
         }} />

@@ -28,7 +28,7 @@ export const MenuList  = [
     name: "Fronted app with React",
     image: reacT,
     descr :  "Fronted app on React ",
-    link : "https://github.com/Samsonasumu/Deploying-a-Machine-Learnning-Application-on-Django" 
+    link : "https://github.com/Samsonasumu/samson-react-portfolio-app" 
   },
   
    
