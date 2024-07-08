@@ -40,6 +40,8 @@ This will start the development server and open the application in your web brow
 
 ![App Preview](https://github.com/Samsonasumu/samson-react-portfolio-app/assets/99386103/9d97d14b-df79-48e0-8ba4-6037993bbe76)
 
+![image](https://github.com/Samsonasumu/samson-react-portfolio-app/assets/99386103/d0459137-3637-45a8-ae82-0927d4d5b611)
+
 ## Dependencies
 
 This project uses the following dependencies:
