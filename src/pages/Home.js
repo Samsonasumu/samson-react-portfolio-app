@@ -24,7 +24,7 @@ function Home() {
                         "A software developer and Data scientist",
                         2000,
                         "Welcome to My Portfolio Website App  developed in React and deployed on Netlify",
-                        1000,
+                        2000,
 
                       ]}
                       />
@@ -34,11 +34,16 @@ function Home() {
         <h1>My Skills</h1>
           <ul>
             <li>Statistician</li>
-            <li>Machine Learning Engineering</li>
+            <li>Machine Learning</li>
             <li>Data Science</li>
             <li>JavaScript and Python developer</li>
           </ul>
-          <h3>Fomer developer at Andela Company, currently I do freelance work </h3>
+          <h3>Currently I do freelance data science and software development work </h3>
+      </div>
+
+      
+      <div>
+        <p>lorem</p>
       </div>
 
 
