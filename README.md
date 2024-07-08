@@ -68,3 +68,8 @@ This project is licensed under MIT.
 ## Author
 
 Samson Asumu
+
+
+## live url
+
+https://samson-asumu-portfolio-app.netlify.app/
