@@ -53,7 +53,7 @@ function Home() {
        </div>
 
       <div className='theme-toggle'>
-          <h2>switch Theme blue and black</h2>
+          <h2>switch Theme blue and red</h2>
           <i onClick={switchTheme} class='fas fa-toggle-on'></i>
         </div>
     </div>
