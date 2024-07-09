@@ -1,3 +1,23 @@
+:root {
+  --background: blue;
+  --text-primary: #000;
+  --text-secondary: #8e05c2;
+  --accent: #8e05c2;
+  --border: #333;
+  --form-bg: #fff;
+}
+
+[data-theme='dark'] {
+  --background: #000;    
+  --text-primary: #fff;
+  --text-secondary: #8e05c2;
+  --accent: #8e05c2;
+  --border: #808080;
+  --form-bg: #191919;
+}
+
+
+
 .home {
     width: 100%;
     height: 90vh;
@@ -11,8 +31,12 @@
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   }
   
+  .theme-toggle {
+    text-align: center;
+  }
+  
   .skills{
-    color: red;
+    color: var(--background);
     justify-content: center;
     font-family: Arial, sans-serif;
     background-color: blue;
@@ -20,17 +44,17 @@
    padding: 0;
   }
 .primary-text1 {
-  color: red;
+  color: var(--background);
 }
  .skills h1 {
     text-align: center;
-    color: #333;
+    color: wheat;
     padding: 20px 0;
   }
 
   .skills h3 {
     text-align: center;
-    color: #333;
+    color: var(--background);
     padding: 20px 0;
   }
 
@@ -42,7 +66,7 @@
   
   .skills li {
     font-size: 18px;
-    color: black;
+    color: var(--background);
     padding: 10px 0;
   }
   .headerContainer {
@@ -56,18 +80,18 @@
     font-size: 90px;
     height: 60px;
     font-weight: 50;
-    color: blue;
+    color: white;
   }
   
   .headerContainer p {
     padding: 0;
     font-size: 40px;
     font-weight: lighter;
-    color: black;
+    color: var(--background);
   }
   
   .headerContainer button {
-    color: black;
+    color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -75,13 +99,13 @@
     background-color: #121619;
     height: 50px;
     width: 180px;
-    color: white;
+    color: var(--background);
     text-decoration: none;
     font-size: 20px;
   }
   
   .headerContainer button:hover {
-    background-color: #07090a;
+    background-color: var(--background);
     cursor: pointer;
     transition: 0.3s ease-in;
   }
@@ -108,7 +132,7 @@
     .headerContainer h1 {
       font-size: 40px;
       height: 30px;
-      color: white;
+      color: wheat;
     }
   
     .headerContainer p {

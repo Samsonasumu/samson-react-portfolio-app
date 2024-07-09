@@ -91,8 +91,6 @@ function About() {
           borderRadius: '50%',
           objectFit: 'cover' // Optional: Ensure image fills available space
         }} />
-
-          
         </div>
        </div>
   </div>
