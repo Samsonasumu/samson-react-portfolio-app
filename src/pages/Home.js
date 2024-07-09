@@ -1,3 +1,5 @@
+import useLocalStorage from 'use-local-storage'
+
 import React from "react";
 import { Link } from "react-router-dom";
 import BannerImage from "../assets/code.avif";
@@ -5,8 +7,14 @@ import Typical from "react-typical";
 import "../styles/Home.css";
 
 function Home() {
+  const [theme, setTheme] = useLocalStorage('theme' ? 'dark' : 'light')
+
+  const switchTheme = () => {
+    const newTheme = theme === 'light' ? 'dark' : 'light';
+    setTheme(newTheme)
+    }
   return (
-    <div className="home" style={{ backgroundImage: `url(${BannerImage})` }}>
+    <div className="home" style={{ backgroundImage: `url(${BannerImage})` }} data-theme={theme}>
       <div className="headerContainer">
         <Link to="/menu">
           <button> My Past Projects </button>
@@ -40,13 +48,10 @@ function Home() {
           </ul>
           <h3>Currently I do freelance data science and software development work </h3>
       </div>
-
-      
-      <div>
-        <p>lorem</p>
-      </div>
-
-
+      <div className='theme-toggle'>
+          <h2>switch Theme blue and black</h2>
+          <i onClick={switchTheme} class='fas fa-toggle-on'></i>
+        </div>
     </div>
     
   );
