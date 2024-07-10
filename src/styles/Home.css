@@ -8,15 +8,13 @@
 }
 
 [data-theme='dark'] {
-  --background: #000;    
+  --background: red;    
   --text-primary: #fff;
   --text-secondary: #8e05c2;
   --accent: #8e05c2;
   --border: #808080;
   --form-bg: #191919;
 }
-
-
 
 .home {
     width: 100%;
@@ -30,6 +28,12 @@
     background-size: cover;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--form-bg);
+  }
   
   .theme-toggle {
     text-align: center;
@@ -39,7 +43,7 @@
     color: var(--background);
     justify-content: center;
     font-family: Arial, sans-serif;
-    background-color: blue;
+    background-color: var(--form-bg);
     margin: 0;
    padding: 0;
   }
@@ -48,7 +52,7 @@
 }
  .skills h1 {
     text-align: center;
-    color: wheat;
+    color: black;
     padding: 20px 0;
   }
 
