@@ -18,9 +18,6 @@ body {
   margin-right: 10px; /* Add spacing between icons */
 }
 
-
-
-
 .profile-container{
   display: flex;
   align-items: center;
@@ -42,7 +39,7 @@ body {
  }
 .profile-picture-background{
   height: 92%;
-  width: 92%;
+  width: 2%;
   border-radius: 50px;
   background-image: url('../assets/Home/profilephoto.jpg');
   background-size: cover;

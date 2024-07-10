@@ -38,6 +38,7 @@ function Home() {
                       />
                 </h1>
         </span>
+      <div className='container'>
       <div className="skills">
         <h1>My Skills</h1>
           <ul>
@@ -47,13 +48,15 @@ function Home() {
             <li>JavaScript and Python developer</li>
           </ul>
           <h3>Currently I do freelance data science and software development work </h3>
-      </div>
+    
+       </div>
+       </div>
+
       <div className='theme-toggle'>
-          <h2>switch Theme blue and black</h2>
+          <h2>switch Theme blue and red</h2>
           <i onClick={switchTheme} class='fas fa-toggle-on'></i>
         </div>
     </div>
-    
   );
 }
 
