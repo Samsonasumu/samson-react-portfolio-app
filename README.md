@@ -37,10 +37,9 @@ npm start
 This will start the development server and open the application in your web browser.
 
 ### Visit the app at http://localhost:3000/
+![image](https://github.com/Samsonasumu/samson-react-portfolio-app/assets/99386103/86c358bf-5f32-4bb2-b440-025003b5b575)
 
-![App Preview](https://github.com/Samsonasumu/samson-react-portfolio-app/assets/99386103/9d97d14b-df79-48e0-8ba4-6037993bbe76)
-
-![image](https://github.com/Samsonasumu/samson-react-portfolio-app/assets/99386103/d0459137-3637-45a8-ae82-0927d4d5b611)
+![image](https://github.com/Samsonasumu/samson-react-portfolio-app/assets/99386103/38424d21-13a2-400c-8bf6-9f1cf65c5503)
 
 ## Dependencies
 
