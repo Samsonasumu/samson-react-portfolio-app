@@ -1,6 +1,10 @@
  # Samson's React Portfolio App
 
 Welcome to my React application showcasing my skills and experience as a developer.
+### Features
+
+* Dynamic text effects using the `react-typical` library.
+* Customizable theme preferences stored in local storage.
 
 ## Getting Started
 
