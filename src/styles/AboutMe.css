@@ -1,0 +1,66 @@
+/* AboutMe.css */
+
+.about-me {
+    /* General styling for the entire section */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; /* Center align content */
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    background-color: var(--form-bg);
+    margin: 0;
+   padding: 0;
+   margin-bottom: 0px;
+   background-position: center;
+   margin-left: 200px;
+   bottom: 20px;
+
+ 
+  }
+  
+@media only screen and (max-width: 568px) {
+  .about-me {
+      max-width: 400px;
+      padding: 0%;
+      margin-left: 20px;
+      height: 0px;
+      margin-bottom: 10px;
+
+    }
+  }
+  .about-me h2 {
+    /* Styling for the heading */
+    font-size: 15px;
+    color: green;
+    margin-bottom: 0px;
+  }
+  
+  .about-me p {
+    /* Styling for the paragraph */
+    font-size: 15px;
+    color: blueviolet;
+    line-height: 1.5;
+    margin-bottom: 0px;
+  }
+  
+  .social-links {
+    /* Styling for the social links container */
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Spacing between links */
+  }
+  
+  .social-links a {
+    /* Styling for social links */
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+  }
+  
+  .social-links img {
+    /* Styling for the social logo image */
+    width: 30px; /* Adjust image size as needed */
+    height: 30px;
+  }
+  

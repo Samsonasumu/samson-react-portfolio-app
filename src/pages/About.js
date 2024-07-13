@@ -14,6 +14,8 @@ function About() {
         <div className='profile-details'>  
          <div className='colz'>
           <div className='colz-icon'>
+          <h1>follow me on</h1>
+
           <a href='https://web.facebook.com/samson.asumu.3/?_rdc=1&_rdr'>
               <i  className='fa fa-facebook-square'></i>
             </a>

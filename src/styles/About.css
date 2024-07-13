@@ -12,6 +12,11 @@ body {
   margin: 10px 0; /* Add some margin for spacing */
 }
 
+.colz-icon h1 {
+  color: #ff5823;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
 .colz-icon a i {
   font-size: 24px; /* Adjust icon size */
   color: #333; /* Set icon color */

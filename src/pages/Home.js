@@ -1,5 +1,6 @@
 import useLocalStorage from 'use-local-storage'
 
+import AboutMe from '../components/AboutMe'; // Import the AboutMe component
 import React from "react";
 import { Link } from "react-router-dom";
 import BannerImage from "../assets/code.avif";
@@ -38,6 +39,7 @@ function Home() {
                       />
                 </h1>
         </span>
+      
       <div className='container'>
       <div className="skills">
         <h1>My Skills</h1>
@@ -53,9 +55,14 @@ function Home() {
        </div>
 
       <div className='theme-toggle'>
-          <h2>switch Theme blue and red</h2>
+          <h2>switch Theme </h2>
           <i onClick={switchTheme} class='fas fa-toggle-on'></i>
-        </div>
+      </div>
+
+      <div className="about-section">
+        <AboutMe />
+      </div>
+ 
     </div>
   );
 }

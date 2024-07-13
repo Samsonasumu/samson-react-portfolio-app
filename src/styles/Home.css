@@ -32,7 +32,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--form-bg);
   }
   
   .theme-toggle {
@@ -40,7 +39,8 @@
   }
   
   .skills{
-    color: var(--background);
+     background-color: var(--form-bg);
+
     justify-content: center;
     font-family: Arial, sans-serif;
     background-color: var(--form-bg);
@@ -75,6 +75,8 @@
   }
   .headerContainer {
     width: auto;
+    background-color: var(--form-bg);
+
     margin-left: 50px;
   }
   
